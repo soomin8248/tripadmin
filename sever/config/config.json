@@ -1,0 +1,25 @@
+{
+    "development": {
+      "username": "root",
+      "password": "kosha1231!",
+      "database": "trip",
+      "host": "34.134.213.48",
+      "dialect": "mysql"
+    },
+    "test": {
+      "username": "root",
+      "password": null,
+      "database": "database_test",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "root",
+      "password": null,
+      "database": "database_production",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    }
+}
+
+ 
