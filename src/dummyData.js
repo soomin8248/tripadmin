@@ -49,6 +49,22 @@ export const userData = [
     },
 ];
 
+export const productData = [
+    {
+        name: 'Jan',
+        "Sales": 4000,
+    },
+    {
+        name: 'feb',
+        "Sales": 3000,
+    },
+    {
+        name: 'Mar',
+        "Sales": 5000,
+    },
+];
+
+
 
 export const userRows = [
     { id: 1, username: 'John Snow', avatar: "/img/IU.jpg", email: "iu@gamil.com", status: "active", transaction: "$120.0", },
@@ -61,4 +77,18 @@ export const userRows = [
     { id: 8, username: 'John Snow', avatar: "/img/IU.jpg", email: "iu@gamil.com", status: "active", transaction: "$120.0", },
     { id: 9, username: 'John Snow', avatar: "/img/IU.jpg", email: "iu@gamil.com", status: "active", transaction: "$120.0", },
     { id: 10, username: 'John Snow', avatar: "/img/IU.jpg", email: "iu@gamil.com", status: "active", transaction: "$120.0", },
+];
+
+
+export const productRows = [
+    { id: 1, name: 'Apple Airpods', img: "/img/Apple_Airpods.jpg", stork: 123, status: "active", price: "$120.0", },
+    { id: 2, name: 'Apple Airpods', img: "/img/Apple_Airpods.jpg", stork: 123, status: "active", price: "$120.0", },
+    { id: 3, name: 'Apple Airpods', img: "/img/Apple_Airpods.jpg", stork: 123, status: "active", price: "$120.0", },
+    { id: 4, name: 'Apple Airpods', img: "/img/Apple_Airpods.jpg", stork: 123, status: "active", price: "$120.0", },
+    { id: 5, name: 'Apple Airpods', img: "/img/Apple_Airpods.jpg", stork: 123, status: "active", price: "$120.0", },
+    { id: 6, name: 'Apple Airpods', img: "/img/Apple_Airpods.jpg", stork: 123, status: "active", price: "$120.0", },
+    { id: 7, name: 'Apple Airpods', img: "/img/Apple_Airpods.jpg", stork: 123, status: "active", price: "$120.0", },
+    { id: 8, name: 'Apple Airpods', img: "/img/Apple_Airpods.jpg", stork: 123, status: "active", price: "$120.0", },
+    { id: 9, name: 'Apple Airpods', img: "/img/Apple_Airpods.jpg", stork: 123, status: "active", price: "$120.0", },
+    { id: 10, name: 'Apple Airpods', img: "/img/Apple_Airpods.jpg", stork:123, status: "active", price: "$120.0", },
 ];

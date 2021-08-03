@@ -13,6 +13,9 @@ import {
 import "./App.css";
 import User from "components/pages/user/User";
 import Newuser from "components/pages/newUser/Newuser";
+import ProductList from "components/pages/productList/ProductList";
+import Product from "components/pages/product/Product";
+import NewProduct from "components/pages/newProduct/NewProduct";
 
 function App() {
   return (
@@ -32,6 +35,15 @@ function App() {
           </Route>
           <Route path="/newUser">
             <Newuser/>
+          </Route>
+          <Route path="/products">
+            <ProductList />
+          </Route>
+          <Route path="/product/:productid">
+            <Product />
+          </Route>
+          <Route path="/newproduct">
+            <NewProduct/>
           </Route>
         </Switch>
       </div>  
